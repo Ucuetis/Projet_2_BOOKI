@@ -800,7 +800,7 @@ footer .footer-column ul li a {
     align-items: center;
     margin: 30px 0px;
     gap: 10px;
-    width: 100%;
+    width: auto;
     height: auto;
   }
 
@@ -855,6 +855,12 @@ footer .footer-column ul li a {
   }
 
   .search-box input {
+    display: flex;
+    width: 100%;
+  }
+
+  .search-box form {
+    display: flex;
     width: 100%;
   }
 
